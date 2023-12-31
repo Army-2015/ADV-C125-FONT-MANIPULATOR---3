@@ -1,0 +1,55 @@
+body {
+    background-image: url('cherry_pink_doddle.png');
+    background-repeat: repeat;
+    background-size: 35%;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Kalnia', serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+#myModal{
+    text-align: center;
+    position: fixed;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+}
+
+.copy_right_footer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    width: 100%;
+    line-height: 1.8;
+    color: #000;
+    background-color: rgb(153, 153, 153);
+    position: absolute;
+    bottom: 0;
+}
+
+canvas{
+    border-radius: 20px;
+    border: 7.5px solid rgb(171, 15, 46);
+    box-shadow: 15px 15px 13px rgb(114, 114, 114);
+    background-color: rgb(247, 137, 159);
+    margin-top: 90px;
+}
